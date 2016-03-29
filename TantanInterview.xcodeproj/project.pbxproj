@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FD06D64C17AF93587F1C7C4 /* libPods-TantanInterview.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E78863494B0B06C13E3BFC92 /* libPods-TantanInterview.a */; };
+		C4CDBB1E1CAAC1CA000C13A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB1D1CAAC1CA000C13A7 /* main.m */; };
+		C4CDBB211CAAC1CA000C13A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB201CAAC1CA000C13A7 /* AppDelegate.m */; };
+		C4CDBB2A1CAAC1CA000C13A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CDBB281CAAC1CA000C13A7 /* Main.storyboard */; };
+		C4CDBB2C1CAAC1CA000C13A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CDBB2B1CAAC1CA000C13A7 /* Assets.xcassets */; };
+		C4CDBB2F1CAAC1CA000C13A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CDBB2D1CAAC1CA000C13A7 /* LaunchScreen.storyboard */; };
+		C4CDBB3A1CAAC2A2000C13A7 /* TTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB391CAAC2A2000C13A7 /* TTHomeViewController.m */; };
+		C4CDBB3D1CAAC2BE000C13A7 /* TTFavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB3C1CAAC2BE000C13A7 /* TTFavoritesViewController.m */; };
+		C4CDBB401CAAC30E000C13A7 /* TTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB3F1CAAC30E000C13A7 /* TTInfoViewController.m */; };
+		C4CDBB441CAAC5E5000C13A7 /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB431CAAC5E5000C13A7 /* APIClient.m */; };
+		C4CDBB4A1CAAC7B4000C13A7 /* TTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB491CAAC7B4000C13A7 /* TTModel.m */; };
+		C4CDBB4D1CAAC839000C13A7 /* TTHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB4C1CAAC839000C13A7 /* TTHomeModel.m */; };
+		C4CDBB511CAAC8F6000C13A7 /* TTFavoritesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB501CAAC8F6000C13A7 /* TTFavoritesModel.m */; };
+		C4CDBB541CAACA87000C13A7 /* TTCourses.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB531CAACA87000C13A7 /* TTCourses.m */; };
+		C4CDBB5C1CAACB9C000C13A7 /* TTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB5A1CAACB9C000C13A7 /* TTTableViewCell.m */; };
+		C4CDBB5D1CAACB9C000C13A7 /* TTTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4CDBB5B1CAACB9C000C13A7 /* TTTableViewCell.xib */; };
+		C4CDBB601CAAD7E0000C13A7 /* MBProgressHUD+Show.m in Sources */ = {isa = PBXBuildFile; fileRef = C4CDBB5F1CAAD7E0000C13A7 /* MBProgressHUD+Show.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4CDBB191CAAC1CA000C13A7 /* TantanInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TantanInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4CDBB1D1CAAC1CA000C13A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4CDBB1F1CAAC1CA000C13A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TantanInterview/AppDelegate.h; sourceTree = "<group>"; };
+		C4CDBB201CAAC1CA000C13A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TantanInterview/AppDelegate.m; sourceTree = "<group>"; };
+		C4CDBB291CAAC1CA000C13A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4CDBB2B1CAAC1CA000C13A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4CDBB2E1CAAC1CA000C13A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4CDBB301CAAC1CA000C13A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4CDBB381CAAC2A2000C13A7 /* TTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHomeViewController.h; sourceTree = "<group>"; };
+		C4CDBB391CAAC2A2000C13A7 /* TTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHomeViewController.m; sourceTree = "<group>"; };
+		C4CDBB3B1CAAC2BE000C13A7 /* TTFavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFavoritesViewController.h; sourceTree = "<group>"; };
+		C4CDBB3C1CAAC2BE000C13A7 /* TTFavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFavoritesViewController.m; sourceTree = "<group>"; };
+		C4CDBB3E1CAAC30E000C13A7 /* TTInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTInfoViewController.h; sourceTree = "<group>"; };
+		C4CDBB3F1CAAC30E000C13A7 /* TTInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTInfoViewController.m; sourceTree = "<group>"; };
+		C4CDBB421CAAC5E5000C13A7 /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
+		C4CDBB431CAAC5E5000C13A7 /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIClient.m; sourceTree = "<group>"; };
+		C4CDBB481CAAC7B4000C13A7 /* TTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTModel.h; sourceTree = "<group>"; };
+		C4CDBB491CAAC7B4000C13A7 /* TTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTModel.m; sourceTree = "<group>"; };
+		C4CDBB4B1CAAC839000C13A7 /* TTHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHomeModel.h; sourceTree = "<group>"; };
+		C4CDBB4C1CAAC839000C13A7 /* TTHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHomeModel.m; sourceTree = "<group>"; };
+		C4CDBB4F1CAAC8F6000C13A7 /* TTFavoritesModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFavoritesModel.h; sourceTree = "<group>"; };
+		C4CDBB501CAAC8F6000C13A7 /* TTFavoritesModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFavoritesModel.m; sourceTree = "<group>"; };
+		C4CDBB521CAACA87000C13A7 /* TTCourses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCourses.h; sourceTree = "<group>"; };
+		C4CDBB531CAACA87000C13A7 /* TTCourses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCourses.m; sourceTree = "<group>"; };
+		C4CDBB591CAACB9C000C13A7 /* TTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewCell.h; sourceTree = "<group>"; };
+		C4CDBB5A1CAACB9C000C13A7 /* TTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewCell.m; sourceTree = "<group>"; };
+		C4CDBB5B1CAACB9C000C13A7 /* TTTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTTableViewCell.xib; sourceTree = "<group>"; };
+		C4CDBB5E1CAAD7E0000C13A7 /* MBProgressHUD+Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Show.h"; sourceTree = "<group>"; };
+		C4CDBB5F1CAAD7E0000C13A7 /* MBProgressHUD+Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Show.m"; sourceTree = "<group>"; };
+		C6A6DC68E1ACB2038E1CEED3 /* Pods-TantanInterview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TantanInterview.release.xcconfig"; path = "Pods/Target Support Files/Pods-TantanInterview/Pods-TantanInterview.release.xcconfig"; sourceTree = "<group>"; };
+		DC20565A9474F5E338F33023 /* Pods-TantanInterview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TantanInterview.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TantanInterview/Pods-TantanInterview.debug.xcconfig"; sourceTree = "<group>"; };
+		E78863494B0B06C13E3BFC92 /* libPods-TantanInterview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TantanInterview.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4CDBB161CAAC1CA000C13A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FD06D64C17AF93587F1C7C4 /* libPods-TantanInterview.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033369C80C97D4C16491E25F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E78863494B0B06C13E3BFC92 /* libPods-TantanInterview.a */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		221DCA3B2B9FD565F5E16F32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC20565A9474F5E338F33023 /* Pods-TantanInterview.debug.xcconfig */,
+				C6A6DC68E1ACB2038E1CEED3 /* Pods-TantanInterview.release.xcconfig */,
+			);
+			name = Pods;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C423E1001CAAE0CF000FCFD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDBB381CAAC2A2000C13A7 /* TTHomeViewController.h */,
+				C4CDBB391CAAC2A2000C13A7 /* TTHomeViewController.m */,
+				C4CDBB3E1CAAC30E000C13A7 /* TTInfoViewController.h */,
+				C4CDBB3F1CAAC30E000C13A7 /* TTInfoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C423E1011CAAE0DB000FCFD8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDBB3B1CAAC2BE000C13A7 /* TTFavoritesViewController.h */,
+				C4CDBB3C1CAAC2BE000C13A7 /* TTFavoritesViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C4CDBB101CAAC1CA000C13A7 = {
+			isa = PBXGroup;
+			children = (
+				C4CDBB1F1CAAC1CA000C13A7 /* AppDelegate.h */,
+				C4CDBB201CAAC1CA000C13A7 /* AppDelegate.m */,
+				C4CDBB1B1CAAC1CA000C13A7 /* TantanInterview */,
+			);
+			sourceTree = "<group>";
+		};
+		C4CDBB1A1CAAC1CA000C13A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDBB191CAAC1CA000C13A7 /* TantanInterview.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		C4CDBB1B1CAAC1CA000C13A7 /* TantanInterview */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDBB411CAAC568000C13A7 /* Global */,
+				C4CDBB361CAAC1D2000C13A7 /* Home */,
+				C4CDBB371CAAC1D8000C13A7 /* Favorites */,
+				C4CDBB1C1CAAC1CA000C13A7 /* Supporting Files */,
+				221DCA3B2B9FD565F5E16F32 /* Pods */,
+				C4CDBB1A1CAAC1CA000C13A7 /* Products */,
+				033369C80C97D4C16491E25F /* Frameworks */,
+				C4CDBB2B1CAAC1CA000C13A7 /* Assets.xcassets */,
+				C4CDBB301CAAC1CA000C13A7 /* Info.plist */,
+				C4CDBB2D1CAAC1CA000C13A7 /* LaunchScreen.storyboard */,
+				C4CDBB281CAAC1CA000C13A7 /* Main.storyboard */,
+			);
+			path = TantanInterview;
+			sourceTree = "<group>";
+		};
+		C4CDBB1C1CAAC1CA000C13A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDBB1D1CAAC1CA000C13A7 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4CDBB361CAAC1D2000C13A7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C423E1001CAAE0CF000FCFD8 /* Controller */,
+				C4CDBB461CAAC798000C13A7 /* Model */,
+				C4CDBB551CAACB5F000C13A7 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C4CDBB371CAAC1D8000C13A7 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				C423E1011CAAE0DB000FCFD8 /* Controller */,
+				C4CDBB4E1CAAC8E0000C13A7 /* Model */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		C4CDBB411CAAC568000C13A7 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDBB471CAAC7A3000C13A7 /* Model */,
+				C4CDBB421CAAC5E5000C13A7 /* APIClient.h */,
+				C4CDBB431CAAC5E5000C13A7 /* APIClient.m */,
+				C4CDBB5E1CAAD7E0000C13A7 /* MBProgressHUD+Show.h */,
+				C4CDBB5F1CAAD7E0000C13A7 /* MBProgressHUD+Show.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		C4CDBB461CAAC798000C13A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDBB4B1CAAC839000C13A7 /* TTHomeModel.h */,
+				C4CDBB4C1CAAC839000C13A7 /* TTHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4CDBB471CAAC7A3000C13A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDBB521CAACA87000C13A7 /* TTCourses.h */,
+				C4CDBB531CAACA87000C13A7 /* TTCourses.m */,
+				C4CDBB481CAAC7B4000C13A7 /* TTModel.h */,
+				C4CDBB491CAAC7B4000C13A7 /* TTModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4CDBB4E1CAAC8E0000C13A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDBB4F1CAAC8F6000C13A7 /* TTFavoritesModel.h */,
+				C4CDBB501CAAC8F6000C13A7 /* TTFavoritesModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4CDBB551CAACB5F000C13A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4CDBB591CAACB9C000C13A7 /* TTTableViewCell.h */,
+				C4CDBB5A1CAACB9C000C13A7 /* TTTableViewCell.m */,
+				C4CDBB5B1CAACB9C000C13A7 /* TTTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4CDBB181CAAC1CA000C13A7 /* TantanInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CDBB331CAAC1CA000C13A7 /* Build configuration list for PBXNativeTarget "TantanInterview" */;
+			buildPhases = (
+				8817ECEA1027BB78A4F9B4C3 /* Check Pods Manifest.lock */,
+				C4CDBB151CAAC1CA000C13A7 /* Sources */,
+				C4CDBB161CAAC1CA000C13A7 /* Frameworks */,
+				C4CDBB171CAAC1CA000C13A7 /* Resources */,
+				9FE6CA825A1AC3A0A02D6073 /* Embed Pods Frameworks */,
+				8FCB6706ACEF5D61D11AD649 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TantanInterview;
+			productName = TantanInterview;
+			productReference = C4CDBB191CAAC1CA000C13A7 /* TantanInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4CDBB111CAAC1CA000C13A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Bindx;
+				TargetAttributes = {
+					C4CDBB181CAAC1CA000C13A7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = C4CDBB141CAAC1CA000C13A7 /* Build configuration list for PBXProject "TantanInterview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4CDBB101CAAC1CA000C13A7;
+			productRefGroup = C4CDBB1A1CAAC1CA000C13A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4CDBB181CAAC1CA000C13A7 /* TantanInterview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4CDBB171CAAC1CA000C13A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CDBB2F1CAAC1CA000C13A7 /* LaunchScreen.storyboard in Resources */,
+				C4CDBB2C1CAAC1CA000C13A7 /* Assets.xcassets in Resources */,
+				C4CDBB2A1CAAC1CA000C13A7 /* Main.storyboard in Resources */,
+				C4CDBB5D1CAACB9C000C13A7 /* TTTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8817ECEA1027BB78A4F9B4C3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FCB6706ACEF5D61D11AD649 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TantanInterview/Pods-TantanInterview-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE6CA825A1AC3A0A02D6073 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TantanInterview/Pods-TantanInterview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4CDBB151CAAC1CA000C13A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CDBB541CAACA87000C13A7 /* TTCourses.m in Sources */,
+				C4CDBB4A1CAAC7B4000C13A7 /* TTModel.m in Sources */,
+				C4CDBB211CAAC1CA000C13A7 /* AppDelegate.m in Sources */,
+				C4CDBB4D1CAAC839000C13A7 /* TTHomeModel.m in Sources */,
+				C4CDBB5C1CAACB9C000C13A7 /* TTTableViewCell.m in Sources */,
+				C4CDBB1E1CAAC1CA000C13A7 /* main.m in Sources */,
+				C4CDBB511CAAC8F6000C13A7 /* TTFavoritesModel.m in Sources */,
+				C4CDBB3D1CAAC2BE000C13A7 /* TTFavoritesViewController.m in Sources */,
+				C4CDBB601CAAD7E0000C13A7 /* MBProgressHUD+Show.m in Sources */,
+				C4CDBB401CAAC30E000C13A7 /* TTInfoViewController.m in Sources */,
+				C4CDBB441CAAC5E5000C13A7 /* APIClient.m in Sources */,
+				C4CDBB3A1CAAC2A2000C13A7 /* TTHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4CDBB281CAAC1CA000C13A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4CDBB291CAAC1CA000C13A7 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		C4CDBB2D1CAAC1CA000C13A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4CDBB2E1CAAC1CA000C13A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4CDBB311CAAC1CA000C13A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4CDBB321CAAC1CA000C13A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4CDBB341CAAC1CA000C13A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC20565A9474F5E338F33023 /* Pods-TantanInterview.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TantanInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TantanInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4CDBB351CAAC1CA000C13A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A6DC68E1ACB2038E1CEED3 /* Pods-TantanInterview.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TantanInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TantanInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4CDBB141CAAC1CA000C13A7 /* Build configuration list for PBXProject "TantanInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CDBB311CAAC1CA000C13A7 /* Debug */,
+				C4CDBB321CAAC1CA000C13A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4CDBB331CAAC1CA000C13A7 /* Build configuration list for PBXNativeTarget "TantanInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CDBB341CAAC1CA000C13A7 /* Debug */,
+				C4CDBB351CAAC1CA000C13A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4CDBB111CAAC1CA000C13A7 /* Project object */;
+}
